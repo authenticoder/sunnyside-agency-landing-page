@@ -1,4 +1,4 @@
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1024px) {
 
     .navigation ul {
         left: 50%;
@@ -9,7 +9,13 @@
         text-align: center;
     }
 
+   
+
     
+    .text a::after {
+        left: 27.5rem;
+        width: 15%;
+    }
 
 
     .gallery-item.one, 
@@ -83,6 +89,11 @@
         grid-template-areas: "column1 column2"
                              "column3 column4"
                              "column5 column6";
+    }
+
+    .text a::after {
+        left: 0;
+        width: 30%;
     }
 
    .desktop .image-text div{
