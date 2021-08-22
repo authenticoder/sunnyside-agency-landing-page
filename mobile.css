@@ -123,6 +123,11 @@ nav li {
     color: var(--dark-grayish-blue);
 }
 
+.navigation .last a{
+    color: black;
+    background-color: var(--yellow);
+}
+
 .navigation a:hover {
     color: black;
     background-color: var(--yellow);
